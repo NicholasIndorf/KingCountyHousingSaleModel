@@ -1,4 +1,4 @@
-# Ames Housing Sales Model
+# King County Real Estate Sale Prices
 
 ## Project Overview
 
