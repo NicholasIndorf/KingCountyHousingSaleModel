@@ -19,5 +19,11 @@ Clients get an accurate price for their home
 ## Project Results
 
 ## Next Steps
+- One: 
+Including zip code 
+- Two:
+Consider closest 15 neighbors
+- Three: 
+Refine model for high/low cost homes
 
 ## Navigating the Repository
