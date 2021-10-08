@@ -21,14 +21,14 @@ Here is the distribution of home prices in King County
 ![Price Correlations](https://user-images.githubusercontent.com/74070082/136581794-651ff990-3744-47be-91ad-f493929fd2ad.png)
 - These are independent correlations to price
 
-![House values in King County](images/House_prices.png)
+![House values in King County](https://github.com/Nindorph/KingCountyHousingSaleModel/raw/main/images/House_prices.png)
 - Location information not included because we wanted the model to only take house characteristics into account
 
-![Grade and Condition v Price]('images/Grade_Condition.png')
+![Grade and Condition v Price](https://github.com/Nindorph/KingCountyHousingSaleModel/raw/main/images/Grade_Condition.png)
 - Home price increases as grade improves, condition improves, and condition improves within grade
 
-![Bathrooms v Price]("images/bathrooms.png")
-
+![Bathrooms v Price](https://github.com/Nindorph/KingCountyHousingSaleModel/raw/main/images/bathrooms.png)
+- Home price increases as number of bathrooms increases
 
 
 
