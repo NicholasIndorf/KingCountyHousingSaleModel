@@ -1,7 +1,15 @@
 # King County Real Estate Sale Prices
 ![house image](https://ncinj.com/wp-content/uploads/Multi-Family.jpg)
 
+## Table of Contents
 
+## Table of Contents
+* [Project Overview](#project-overview)
+* [Data Overview](#data-overview)
+* [Methodology](#methodology)
+* [Project Results](#project-results)
+* [Next Steps](#next-steps)
+* [Navigating the Repository](#navigating-the-repository)
 
 ## Project Overview
 - Goal: 
