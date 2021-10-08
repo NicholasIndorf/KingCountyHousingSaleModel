@@ -60,11 +60,6 @@ Critically, our final model does not include location data. Adding those feature
 ## Navigating the Repository
 
 ├── data
-│           ├──Capture.JPG
-│           ├── Capture2.JPG
-│           ├──  Cat plot.JPG
-│           ├── House values in King County.JPG
-│           ├── House values in King Countybox plot.JPG
 │           ├── Zipcodes_for_King_County_and_Surrounding_Area__
 │           ├──column_names.md
 │           ├──home.JPG
@@ -74,5 +69,9 @@ Critically, our final model does not include location data. Adding those feature
 │          ├──Mellissa
 │          └── Nick
 ├── images
+│          ├──bathrooms.png
+│          ├──Grade_Condition.png
+│          ├──House_prices.png
+│          ├──sqft_house_v_price.png
 ├── README.md
-└── notebook.ipynb
+└── HousingSalesModel.ipynb
