@@ -47,15 +47,15 @@ Our final model resulted in a $152,7285.76 average variation from observed sales
 
 ## Conclusion & Next Steps
 - One: 
-Including zip code 
+Including location data 
 - Two:
-Consider closest 15 neighbors
+Consider separating high/low cost housing differently
 
 We recommend Mom & Pop Realty use the size of the house and property, grade and condition of the house, and whether the house has a basement to understand the potential sale price of the a clients home. The strongest predictors are House Square Footage, where a 1% increase in Home square footage translates to an increase in 0.22% sale price. The next strongest predictor is the grade of the house, specifically, where the house has an excellent grade. Homes with an excellent grade has a 20.1% higher sales price than that of a home with an average grade. We understand this model is incomplete and the level of bias in the model reduces the overall effectiveness.
 
 Especially given the average error is ~$\150,000, the price of some homes in the dataset, we would not recommend Mom & Pop Realty use the model to give an accurate numerical estimate for the sale price of a home. Rather, it is effective as a view into what features are important determinants of sale price.
 
-Critically, our final model does not include location data. Adding those features to the model may help the model's bias, heteroskedasticity issues, and overall predictive power.
+Critically, our final model does not include location data and does not differentiate between high and low cost housing. Adding those features to the model may help the model's bias, heteroskedasticity issues, and overall predictive power.
 
 ## Navigating the Repository
 
