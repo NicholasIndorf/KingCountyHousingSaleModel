@@ -7,6 +7,7 @@
 * [Methodology](#methodology)
 * [Project Results](#project-results)
 * [Next Steps](#next-steps)
+* 
 * [Navigating the Repository](#navigating-the-repository)
 
 ## Project Overview
@@ -40,20 +41,33 @@ This very simple model will predict the average of the training data set prices 
 
 ## Project Results
 
-53.1% of the price variance explained
-Mean Absolute Error: ~$140,000
-Strongest predictors: 
-House Square Footage
-1% increase →  +0.22% sale price
-House Square Footage
-1% increase →  +0.22% sale price
+Our final model resulted in a $152,7285.76 average variation from observed sales prices and ended with a R squared value of .555 meaning our model accounts for a 55.5% variance in sales price. All of the features have a pvalue of less than 0.05, which implies all features are significant to the model. Our condition number is less than a 5, meaning there is little to multicollinearity issues. The scatter plot of the residuals does display some heteroskedasticity. Based on the QQ plot, the residuals are slightly skewed to the right. It is interesting to note, none of the engineered features, the number of bathrooms did not make it in to the final model.
 
-
-## Next Steps
+## Conclusion & Next Steps
 - One: 
 Including zip code 
 - Two:
 Consider closest 15 neighbors
 
+We recommend Mom & Pop Realty use the grade and condition of the house if the house has a basement, the size of the house and size of the property to predict the price of the a clients home. The strongest predictors is House Square Footage, where a 1% increase in Home square footage translates to an increase in 0.22% sale price. The next strongest predictor is the grade of the house, specifically, where the house has an excellent grade. Homes with an excellent grade has a 20.1% higher sales price than that of a home with an average grade. We understand this model is incomplete and the level of bias in the model reduces the overall effectiveness. Our final model does not included location data. Adding those features to the model may help the model's bias and heteroskedasticity issues.
 
 ## Navigating the Repository
+
+├── data
+│           ├──Capture.JPG
+│           ├── Capture2.JPG
+│           ├──  Cat plot.JPG
+│           ├── House values in King County.JPG
+│           ├── House values in King Countybox plot.JPG
+│           ├── Zipcodes_for_King_County_and_Surrounding_Area__
+│           ├──column_names.md
+│           ├──home.JPG
+│           └── kc_house_data.csv
+├── notebook
+│          ├──Dave
+│          ├──Mellissa
+│          └── Nick
+├── images
+├── README.md
+├── presentation.pdf
+└── notebook.ipynb
