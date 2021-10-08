@@ -43,7 +43,7 @@ This very simple model will predict the average of the training data set prices 
 
 ## Project Results
 
-Our final model resulted in a $152,7285.76 average variation from observed sales prices and ended with a R squared value of .555 meaning our model accounts for a 55.5% variance in sales price. All of the features have a pvalue of less than 0.05, which implies all features are significant to the model. Our condition number is less than a 5, meaning there is little to multicollinearity issues. The scatter plot of the residuals does display some heteroskedasticity. Based on the QQ plot, the residuals are slightly skewed to the right. It is interesting to note, none of the engineered features, the number of bathrooms did not make it in to the final model.
+Our final model resulted in a $152,7285.76 average variation from observed sales prices and ended with a R squared value of .555 meaning our model accounts for a 55.5\% variance in sales price. All of the features have a pvalue of less than 0.05, which implies all features are significant to the model. Our condition number is less than a 5, meaning there is little multicollinearity issues. The scatter plot of the residuals does display some heteroskedasticity. Based on the QQ plot, the residuals are slightly skewed to the right. Our model does therefore violate the assumptions of linear regression, but only slightly, and maybe not enough to make it not valuable. It is interesting to note that none of the engineered features and the number of bathrooms made it into the final model.
 
 ## Conclusion & Next Steps
 - One: 
@@ -51,7 +51,11 @@ Including zip code
 - Two:
 Consider closest 15 neighbors
 
-We recommend Mom & Pop Realty use the grade and condition of the house if the house has a basement, the size of the house and size of the property to predict the price of the a clients home. The strongest predictors is House Square Footage, where a 1% increase in Home square footage translates to an increase in 0.22% sale price. The next strongest predictor is the grade of the house, specifically, where the house has an excellent grade. Homes with an excellent grade has a 20.1% higher sales price than that of a home with an average grade. We understand this model is incomplete and the level of bias in the model reduces the overall effectiveness. Our final model does not included location data. Adding those features to the model may help the model's bias and heteroskedasticity issues.
+We recommend Mom & Pop Realty use the size of the house and property, grade and condition of the house, and whether the house has a basement to understand the potential sale price of the a clients home. The strongest predictors are House Square Footage, where a 1% increase in Home square footage translates to an increase in 0.22% sale price. The next strongest predictor is the grade of the house, specifically, where the house has an excellent grade. Homes with an excellent grade has a 20.1% higher sales price than that of a home with an average grade. We understand this model is incomplete and the level of bias in the model reduces the overall effectiveness.
+
+Especially given the average error is ~$\150,000, the price of some homes in the dataset, we would not recommend Mom & Pop Realty use the model to give an accurate numerical estimate for the sale price of a home. Rather, it is effective as a view into what features are important determinants of sale price.
+
+Critically, our final model does not include location data. Adding those features to the model may help the model's bias, heteroskedasticity issues, and overall predictive power.
 
 ## Navigating the Repository
 
