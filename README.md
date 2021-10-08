@@ -2,8 +2,6 @@
 ![house image](https://ncinj.com/wp-content/uploads/Multi-Family.jpg)
 
 ## Table of Contents
-
-## Table of Contents
 * [Project Overview](#project-overview)
 * [Data Overview](#data-overview)
 * [Methodology](#methodology)
@@ -21,6 +19,9 @@ Clients get an accurate price for their home
 
 
 ## Data Overview
+![Capture](https://user-images.githubusercontent.com/74070082/136480863-559969a8-70f2-4874-99a0-e708046f1efa.JPG)
+
+
 
 ## Methodology
 
