@@ -18,16 +18,19 @@ This dataset contains house sale prices for King County, Washington. It includes
 Here is the distribution of home prices in King County
 21,419 home sales --> Median: $450,000
 
+![Price Correlations](https://user-images.githubusercontent.com/74070082/136581794-651ff990-3744-47be-91ad-f493929fd2ad.png)
+- These are independent correlations to price
 
-![House values in King County](https://user-images.githubusercontent.com/74070082/136481197-1ae8d73d-540c-4946-aeba-342da4a4496d.JPG)
+![House values in King County](images/House_prices.png)
 - Location information not included because we wanted the model to only take house characteristics into account
 
-![Capture](https://user-images.githubusercontent.com/74070082/136480863-559969a8-70f2-4874-99a0-e708046f1efa.JPG)
+![Grade and Condition v Price]('images/Grade_Condition.png')
 - Home price increases as grade improves, condition improves, and condition improves within grade
 
+![Bathrooms v Price]("images/bathrooms.png")
 
-![Screen Shot 2021-10-08 at 9 16 50 AM](https://user-images.githubusercontent.com/74070082/136581794-651ff990-3744-47be-91ad-f493929fd2ad.png)
-- These are independent correlations to price
+
+
 
 ## Methodology
 ### Let's build models.
