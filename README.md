@@ -7,7 +7,6 @@
 * [Methodology](#methodology)
 * [Project Results](#project-results)
 * [Next Steps](#next-steps)
-* 
 * [Navigating the Repository](#navigating-the-repository)
 
 ## Project Overview
@@ -69,5 +68,4 @@ We recommend Mom & Pop Realty use the grade and condition of the house if the ho
 │          └── Nick
 ├── images
 ├── README.md
-├── presentation.pdf
 └── notebook.ipynb
