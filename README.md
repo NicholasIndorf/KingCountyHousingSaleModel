@@ -59,6 +59,7 @@ Critically, our final model does not include location data and does not differen
 
 ## Navigating the Repository
 
+```
 ├── data
 │           ├── Zipcodes_for_King_County_and_Surrounding_Area__
 │           ├──column_names.md
@@ -75,3 +76,4 @@ Critically, our final model does not include location data and does not differen
 │          ├──sqft_house_v_price.png
 ├── README.md
 └── HousingSalesModel.ipynb
+```
